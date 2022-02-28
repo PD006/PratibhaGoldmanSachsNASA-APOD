@@ -64,4 +64,6 @@
 
 4- On Favourite list by swiping can delete value from Favourite list.
 
+5- For Reference Gif and video is attached.
+
 
