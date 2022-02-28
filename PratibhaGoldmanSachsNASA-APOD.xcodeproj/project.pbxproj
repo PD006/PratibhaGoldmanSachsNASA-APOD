@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		276F76A5EE78C7CD0FFFC816 /* Pods_PratibhaGoldmanSachsNASA_APOD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D69D32CBB6581AC1C4DDED4 /* Pods_PratibhaGoldmanSachsNASA_APOD.framework */; };
+		2E153DA727CB5AB000DB9FA8 /* CommonConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E153DA627CB5AB000DB9FA8 /* CommonConfigs.swift */; };
+		2E153DB227CB85C900DB9FA8 /* FavoriteCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E153DB027CB85C900DB9FA8 /* FavoriteCoreDataModel.xcdatamodeld */; };
+		2E153DB927CB881700DB9FA8 /* Favorite+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E153DB727CB881700DB9FA8 /* Favorite+CoreDataClass.swift */; };
+		2E153DBA27CB881700DB9FA8 /* Favorite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E153DB827CB881700DB9FA8 /* Favorite+CoreDataProperties.swift */; };
+		2E153DDF27CB886B00DB9FA8 /* PersistentStoreContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E153DDE27CB886B00DB9FA8 /* PersistentStoreContainer.swift */; };
+		2E153DE127CB8B5600DB9FA8 /* FavoriteCDModelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E153DE027CB8B5600DB9FA8 /* FavoriteCDModelConfig.swift */; };
+		2E153DE327CB934500DB9FA8 /* ShowDetailsViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E153DE227CB934500DB9FA8 /* ShowDetailsViewController+Extension.swift */; };
+		2E153DE727CB971000DB9FA8 /* FavoriteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E153DE627CB971000DB9FA8 /* FavoriteListViewController.swift */; };
+		2E153DE927CB973000DB9FA8 /* FavoriteListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E153DE827CB973000DB9FA8 /* FavoriteListTableViewCell.swift */; };
+		2E153DEC27CB9DEB00DB9FA8 /* FavoriteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E153DEB27CB9DEB00DB9FA8 /* FavoriteListViewModel.swift */; };
+		2E153DEE27CBA78400DB9FA8 /* FavoriteListViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E153DED27CBA78400DB9FA8 /* FavoriteListViewController+Extension.swift */; };
+		2E5C8A4427CA4958001EB523 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C8A4327CA4958001EB523 /* UIView+Shadow.swift */; };
+		2E5C8A4827CA781B001EB523 /* ShowDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C8A4727CA781B001EB523 /* ShowDetailsViewController.swift */; };
+		2E5C8A4A27CA8332001EB523 /* ShowDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C8A4927CA8332001EB523 /* ShowDetailsTableViewCell.swift */; };
+		2E5C8A4E27CA8B96001EB523 /* NasaObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C8A4D27CA8B96001EB523 /* NasaObjectModel.swift */; };
+		2E5C8A5027CA8D17001EB523 /* APIRequestDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C8A4F27CA8D17001EB523 /* APIRequestDataProtocol.swift */; };
+		2E5C8A5327CA95FD001EB523 /* ShowDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C8A5227CA95FD001EB523 /* ShowDetailsViewModel.swift */; };
+		2E5C8A5527CA964E001EB523 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C8A5427CA964E001EB523 /* NetworkConfig.swift */; };
+		2E5C8A5727CA9825001EB523 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C8A5627CA9825001EB523 /* NetworkError.swift */; };
+		2E5C8A5A27CA9872001EB523 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C8A5927CA9872001EB523 /* NetworkManager.swift */; };
+		2E5C8A5C27CA9CED001EB523 /* ShowDetailsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C8A5B27CA9CED001EB523 /* ShowDetailsDataModel.swift */; };
+		2E65DEB127CBE99E00E7347D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65DEB027CBE99E00E7347D /* Reachability.swift */; };
+		2E65DEB427CBF85700E7347D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65DEB327CBF85700E7347D /* Constant.swift */; };
 		2EFC973427CA038A0075C858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFC973327CA038A0075C858 /* AppDelegate.swift */; };
 		2EFC973627CA038A0075C858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFC973527CA038A0075C858 /* SceneDelegate.swift */; };
 		2EFC973827CA038A0075C858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFC973727CA038A0075C858 /* ViewController.swift */; };
@@ -16,6 +40,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E153DA627CB5AB000DB9FA8 /* CommonConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConfigs.swift; sourceTree = "<group>"; };
+		2E153DB127CB85C900DB9FA8 /* FavoriteCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoriteCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		2E153DB727CB881700DB9FA8 /* Favorite+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2E153DB827CB881700DB9FA8 /* Favorite+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2E153DDE27CB886B00DB9FA8 /* PersistentStoreContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStoreContainer.swift; sourceTree = "<group>"; };
+		2E153DE027CB8B5600DB9FA8 /* FavoriteCDModelConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCDModelConfig.swift; sourceTree = "<group>"; };
+		2E153DE227CB934500DB9FA8 /* ShowDetailsViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShowDetailsViewController+Extension.swift"; sourceTree = "<group>"; };
+		2E153DE627CB971000DB9FA8 /* FavoriteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListViewController.swift; sourceTree = "<group>"; };
+		2E153DE827CB973000DB9FA8 /* FavoriteListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListTableViewCell.swift; sourceTree = "<group>"; };
+		2E153DEB27CB9DEB00DB9FA8 /* FavoriteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListViewModel.swift; sourceTree = "<group>"; };
+		2E153DED27CBA78400DB9FA8 /* FavoriteListViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteListViewController+Extension.swift"; sourceTree = "<group>"; };
+		2E5C8A4327CA4958001EB523 /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		2E5C8A4727CA781B001EB523 /* ShowDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsViewController.swift; sourceTree = "<group>"; };
+		2E5C8A4927CA8332001EB523 /* ShowDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		2E5C8A4D27CA8B96001EB523 /* NasaObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaObjectModel.swift; sourceTree = "<group>"; };
+		2E5C8A4F27CA8D17001EB523 /* APIRequestDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestDataProtocol.swift; sourceTree = "<group>"; };
+		2E5C8A5227CA95FD001EB523 /* ShowDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsViewModel.swift; sourceTree = "<group>"; };
+		2E5C8A5427CA964E001EB523 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		2E5C8A5627CA9825001EB523 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		2E5C8A5927CA9872001EB523 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2E5C8A5B27CA9CED001EB523 /* ShowDetailsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsDataModel.swift; sourceTree = "<group>"; };
+		2E65DEB027CBE99E00E7347D /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2E65DEB327CBF85700E7347D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		2EFC973027CA038A0075C858 /* PratibhaGoldmanSachsNASA-APOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PratibhaGoldmanSachsNASA-APOD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFC973327CA038A0075C858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EFC973527CA038A0075C858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +71,9 @@
 		2EFC973C27CA038C0075C858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EFC973F27CA038C0075C858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EFC974127CA038C0075C858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC8127B8CBF24510B590C23 /* Pods-PratibhaGoldmanSachsNASA-APOD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PratibhaGoldmanSachsNASA-APOD.debug.xcconfig"; path = "Target Support Files/Pods-PratibhaGoldmanSachsNASA-APOD/Pods-PratibhaGoldmanSachsNASA-APOD.debug.xcconfig"; sourceTree = "<group>"; };
+		4D69D32CBB6581AC1C4DDED4 /* Pods_PratibhaGoldmanSachsNASA_APOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PratibhaGoldmanSachsNASA_APOD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1FC5EA4E6160993F66F338 /* Pods-PratibhaGoldmanSachsNASA-APOD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PratibhaGoldmanSachsNASA-APOD.release.xcconfig"; path = "Target Support Files/Pods-PratibhaGoldmanSachsNASA-APOD/Pods-PratibhaGoldmanSachsNASA-APOD.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,151 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276F76A5EE78C7CD0FFFC816 /* Pods_PratibhaGoldmanSachsNASA_APOD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E153DA827CB6BE600DB9FA8 /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C8A4327CA4958001EB523 /* UIView+Shadow.swift */,
+				2E153DA627CB5AB000DB9FA8 /* CommonConfigs.swift */,
+			);
+			path = CommonFiles;
+			sourceTree = "<group>";
+		};
+		2E153DAF27CB859D00DB9FA8 /* CoreDataConfig */ = {
+			isa = PBXGroup;
+			children = (
+				2E153DB727CB881700DB9FA8 /* Favorite+CoreDataClass.swift */,
+				2E153DB827CB881700DB9FA8 /* Favorite+CoreDataProperties.swift */,
+				2E153DDE27CB886B00DB9FA8 /* PersistentStoreContainer.swift */,
+			);
+			path = CoreDataConfig;
+			sourceTree = "<group>";
+		};
+		2E153DE427CB96E100DB9FA8 /* FavoriteListVC */ = {
+			isa = PBXGroup;
+			children = (
+				2E153DEF27CBB36800DB9FA8 /* Model */,
+				2E153DEA27CB9DD500DB9FA8 /* ViewModel */,
+				2E153DE527CB96F700DB9FA8 /* View */,
+			);
+			path = FavoriteListVC;
+			sourceTree = "<group>";
+		};
+		2E153DE527CB96F700DB9FA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E153DE627CB971000DB9FA8 /* FavoriteListViewController.swift */,
+				2E153DE827CB973000DB9FA8 /* FavoriteListTableViewCell.swift */,
+				2E153DED27CBA78400DB9FA8 /* FavoriteListViewController+Extension.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E153DEA27CB9DD500DB9FA8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E153DEB27CB9DEB00DB9FA8 /* FavoriteListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2E153DEF27CBB36800DB9FA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E153DE027CB8B5600DB9FA8 /* FavoriteCDModelConfig.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E5C8A4227CA493B001EB523 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2E65DEB227CBF83D00E7347D /* Constants */,
+				2E65DEAF27CBE99500E7347D /* Reachability */,
+				2E153DAF27CB859D00DB9FA8 /* CoreDataConfig */,
+				2E153DA827CB6BE600DB9FA8 /* CommonFiles */,
+				2E5C8A5127CA8DE9001EB523 /* NetworkConfigs */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2E5C8A4527CA77A8001EB523 /* NASA-APODDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C8A4C27CA8B72001EB523 /* Model */,
+				2E5C8A4B27CA8B6B001EB523 /* ViewModel */,
+				2E5C8A4627CA77B5001EB523 /* View */,
+			);
+			path = "NASA-APODDetailsVC";
+			sourceTree = "<group>";
+		};
+		2E5C8A4627CA77B5001EB523 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C8A4727CA781B001EB523 /* ShowDetailsViewController.swift */,
+				2E5C8A4927CA8332001EB523 /* ShowDetailsTableViewCell.swift */,
+				2E153DE227CB934500DB9FA8 /* ShowDetailsViewController+Extension.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E5C8A4B27CA8B6B001EB523 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C8A5227CA95FD001EB523 /* ShowDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2E5C8A4C27CA8B72001EB523 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C8A4D27CA8B96001EB523 /* NasaObjectModel.swift */,
+				2E5C8A5B27CA9CED001EB523 /* ShowDetailsDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E5C8A5127CA8DE9001EB523 /* NetworkConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C8A4F27CA8D17001EB523 /* APIRequestDataProtocol.swift */,
+				2E5C8A5427CA964E001EB523 /* NetworkConfig.swift */,
+				2E5C8A5627CA9825001EB523 /* NetworkError.swift */,
+				2E5C8A5927CA9872001EB523 /* NetworkManager.swift */,
+			);
+			path = NetworkConfigs;
+			sourceTree = "<group>";
+		};
+		2E65DEAF27CBE99500E7347D /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				2E65DEB027CBE99E00E7347D /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		2E65DEB227CBF83D00E7347D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2E65DEB327CBF85700E7347D /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		2EFC972727CA038A0075C858 = {
 			isa = PBXGroup;
 			children = (
 				2EFC973227CA038A0075C858 /* PratibhaGoldmanSachsNASA-APOD */,
 				2EFC973127CA038A0075C858 /* Products */,
+				F24FA6867DF038387489A198 /* Pods */,
+				CAFC2B349E2B9F41707644AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +240,68 @@
 		2EFC973227CA038A0075C858 /* PratibhaGoldmanSachsNASA-APOD */ = {
 			isa = PBXGroup;
 			children = (
-				2EFC973327CA038A0075C858 /* AppDelegate.swift */,
-				2EFC973527CA038A0075C858 /* SceneDelegate.swift */,
-				2EFC973727CA038A0075C858 /* ViewController.swift */,
-				2EFC973927CA038A0075C858 /* Main.storyboard */,
+				2E5C8A4227CA493B001EB523 /* Common */,
+				2E153DE427CB96E100DB9FA8 /* FavoriteListVC */,
+				2E5C8A4527CA77A8001EB523 /* NASA-APODDetailsVC */,
+				2EFC974927CA04AF0075C858 /* SelectDateVC */,
+				2EFC974827CA04910075C858 /* Storyboard */,
+				2EFC974727CA04830075C858 /* AppDelegate */,
 				2EFC973C27CA038C0075C858 /* Assets.xcassets */,
-				2EFC973E27CA038C0075C858 /* LaunchScreen.storyboard */,
 				2EFC974127CA038C0075C858 /* Info.plist */,
+				2E153DB027CB85C900DB9FA8 /* FavoriteCoreDataModel.xcdatamodeld */,
 			);
 			path = "PratibhaGoldmanSachsNASA-APOD";
+			sourceTree = "<group>";
+		};
+		2EFC974727CA04830075C858 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2EFC973327CA038A0075C858 /* AppDelegate.swift */,
+				2EFC973527CA038A0075C858 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2EFC974827CA04910075C858 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2EFC973927CA038A0075C858 /* Main.storyboard */,
+				2EFC973E27CA038C0075C858 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2EFC974927CA04AF0075C858 /* SelectDateVC */ = {
+			isa = PBXGroup;
+			children = (
+				2EFC974A27CA04B90075C858 /* View */,
+			);
+			path = SelectDateVC;
+			sourceTree = "<group>";
+		};
+		2EFC974A27CA04B90075C858 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EFC973727CA038A0075C858 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAFC2B349E2B9F41707644AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D69D32CBB6581AC1C4DDED4 /* Pods_PratibhaGoldmanSachsNASA_APOD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F24FA6867DF038387489A198 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DC8127B8CBF24510B590C23 /* Pods-PratibhaGoldmanSachsNASA-APOD.debug.xcconfig */,
+				6B1FC5EA4E6160993F66F338 /* Pods-PratibhaGoldmanSachsNASA-APOD.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +311,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EFC974427CA038C0075C858 /* Build configuration list for PBXNativeTarget "PratibhaGoldmanSachsNASA-APOD" */;
 			buildPhases = (
+				10E3CD4C572AF82DF1C20004 /* [CP] Check Pods Manifest.lock */,
 				2EFC972C27CA038A0075C858 /* Sources */,
 				2EFC972D27CA038A0075C858 /* Frameworks */,
 				2EFC972E27CA038A0075C858 /* Resources */,
+				5E42C346F0A06451D0CD952F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +372,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10E3CD4C572AF82DF1C20004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PratibhaGoldmanSachsNASA-APOD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E42C346F0A06451D0CD952F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PratibhaGoldmanSachsNASA-APOD/Pods-PratibhaGoldmanSachsNASA-APOD-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PratibhaGoldmanSachsNASA-APOD/Pods-PratibhaGoldmanSachsNASA-APOD-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PratibhaGoldmanSachsNASA-APOD/Pods-PratibhaGoldmanSachsNASA-APOD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2EFC972C27CA038A0075C858 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E5C8A5A27CA9872001EB523 /* NetworkManager.swift in Sources */,
+				2E65DEB427CBF85700E7347D /* Constant.swift in Sources */,
+				2E153DBA27CB881700DB9FA8 /* Favorite+CoreDataProperties.swift in Sources */,
+				2E153DB227CB85C900DB9FA8 /* FavoriteCoreDataModel.xcdatamodeld in Sources */,
+				2E153DEC27CB9DEB00DB9FA8 /* FavoriteListViewModel.swift in Sources */,
+				2E5C8A5C27CA9CED001EB523 /* ShowDetailsDataModel.swift in Sources */,
+				2E5C8A4427CA4958001EB523 /* UIView+Shadow.swift in Sources */,
+				2E153DE927CB973000DB9FA8 /* FavoriteListTableViewCell.swift in Sources */,
+				2E153DA727CB5AB000DB9FA8 /* CommonConfigs.swift in Sources */,
+				2E153DEE27CBA78400DB9FA8 /* FavoriteListViewController+Extension.swift in Sources */,
+				2E153DE327CB934500DB9FA8 /* ShowDetailsViewController+Extension.swift in Sources */,
+				2E5C8A4827CA781B001EB523 /* ShowDetailsViewController.swift in Sources */,
 				2EFC973827CA038A0075C858 /* ViewController.swift in Sources */,
 				2EFC973427CA038A0075C858 /* AppDelegate.swift in Sources */,
+				2E5C8A4E27CA8B96001EB523 /* NasaObjectModel.swift in Sources */,
 				2EFC973627CA038A0075C858 /* SceneDelegate.swift in Sources */,
+				2E5C8A5527CA964E001EB523 /* NetworkConfig.swift in Sources */,
+				2E153DDF27CB886B00DB9FA8 /* PersistentStoreContainer.swift in Sources */,
+				2E153DE727CB971000DB9FA8 /* FavoriteListViewController.swift in Sources */,
+				2E153DB927CB881700DB9FA8 /* Favorite+CoreDataClass.swift in Sources */,
+				2E5C8A5027CA8D17001EB523 /* APIRequestDataProtocol.swift in Sources */,
+				2E5C8A4A27CA8332001EB523 /* ShowDetailsTableViewCell.swift in Sources */,
+				2E153DE127CB8B5600DB9FA8 /* FavoriteCDModelConfig.swift in Sources */,
+				2E5C8A5727CA9825001EB523 /* NetworkError.swift in Sources */,
+				2E65DEB127CBE99E00E7347D /* Reachability.swift in Sources */,
+				2E5C8A5327CA95FD001EB523 /* ShowDetailsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,18 +588,22 @@
 		};
 		2EFC974527CA038C0075C858 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC8127B8CBF24510B590C23 /* Pods-PratibhaGoldmanSachsNASA-APOD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9N272TB8T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PratibhaGoldmanSachsNASA-APOD/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,24 +613,28 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2EFC974627CA038C0075C858 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1FC5EA4E6160993F66F338 /* Pods-PratibhaGoldmanSachsNASA-APOD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9N272TB8T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PratibhaGoldmanSachsNASA-APOD/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +644,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +670,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E153DB027CB85C900DB9FA8 /* FavoriteCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E153DB127CB85C900DB9FA8 /* FavoriteCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 2E153DB127CB85C900DB9FA8 /* FavoriteCoreDataModel.xcdatamodel */;
+			path = FavoriteCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2EFC972827CA038A0075C858 /* Project object */;
 }
