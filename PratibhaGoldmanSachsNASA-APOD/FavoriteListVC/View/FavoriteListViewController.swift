@@ -17,11 +17,14 @@ class FavoriteListViewController: UIViewController {
     var favoriteDataList: [Favorite]?
     var favoriteListViewModel = FavoriteListViewModel()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         favoriteDataList = favoriteListViewModel.getFavoriteList()
         configUI()
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
     }
     
     func configUI() {

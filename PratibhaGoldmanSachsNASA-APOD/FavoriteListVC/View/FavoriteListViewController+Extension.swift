@@ -31,6 +31,18 @@ extension FavoriteListViewController : UITableViewDelegate, UITableViewDataSourc
         return favTableViewCell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let showDetailsViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: Constant.shared.SHOW_DETAILS_VC_IDENTIFIER) as? ShowDetailsViewController else { return }
+        
+        if let favoriteDataList = favoriteDataList?[indexPath.row] {
+            
+            let nasaObject = favoriteListViewModel.getNasaObjectFromFavorite(favoriteDataList: favoriteDataList)
+            
+            showDetailsViewController.nasaObjectModel = nasaObject
+            self.navigationController?.pushViewController(showDetailsViewController, animated: true)
+        }
+    }
+    
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
     }
