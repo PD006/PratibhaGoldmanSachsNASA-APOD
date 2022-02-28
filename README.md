@@ -4,7 +4,7 @@
 
 1- Download Xcode 13.0
 
-2- Create a folder in you machine and go the the folder
+2- Create a folder in your machine and go the the folder
 
    `cd NASA-APOD/`
    
@@ -39,14 +39,14 @@
     
 11- Build the project and run it on the real device or Xcode Simulator
 
-## Features Included:
+## Features Added:
 
-- Allow users to search for the picture for a date of their choise using Calendar.
-- Allow users to create/manage a list of "Favourite" listings. using heart button.
+- Allow users to search for the picture for a date of their choice using Calendar.
+- Allow users to create/manage a list of "Favourite" listings. using the heart button.
 - Display date, explanation, title and the image/video of the day.
-- App is cache information and display last updated information in the case of network unavailability.
-- App is loding Pictures in cache to load the images fastest for better PERFORMANCE
-- App is supporting multiple devices sizes on portrait model.
+- App is cache information and display the latest updated information in the case of network unavailability.
+- App is loading Pictures in cache to load the images fastest for better PERFORMANCE
+- App is supporting multiple device sizes on portrait models.
 
 ## General Note:
 
@@ -56,7 +56,7 @@
 
 - `Calendar` (Using Calendar we are allowing users to search for the picture for a date of their choice). User can not select future date in calendar and by swiping can select any past date.
 
-- `Favourite` button with heart image on it. clicking this button user will have the list of favourite pictures list with detail able to click on cell and get more deatils. 
+- `Favourite` button with heart image on it. clicking this button user will have the list of favourite pictures with details, able to click on cell and get more deatils. 
 
 - `Show Picture` button by clicking this we are redirecting to the next page to get the picture details.
 
