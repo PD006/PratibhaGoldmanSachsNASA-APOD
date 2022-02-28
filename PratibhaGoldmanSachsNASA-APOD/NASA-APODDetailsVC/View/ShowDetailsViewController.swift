@@ -26,7 +26,9 @@ class ShowDetailsViewController: UIViewController {
         self.favButtonConfig()
         
         //MARK: - Get NASA Astronomy Details
-        fetchingAstronomyPicture()
+        if nasaObjectModel == nil {
+            fetchingAstronomyPicture()
+        }
     }
     
     @IBAction func backButtonTapped(_ sender: UIButton) {
