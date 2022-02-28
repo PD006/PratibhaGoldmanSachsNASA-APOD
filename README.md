@@ -46,7 +46,7 @@
 
 2- On Landing screen application has:
 
--`Calendar` (Using Calendar we are allowing users to search for the picture for a date of their choice).
+-`Calendar` (Using Calendar we are allowing users to search for the picture for a date of their choice). User can not select future date in calendar and by swiping can select any past date.
 
 -`Favourite` button with heart image on it. clicking this button user will have the list of favourite pictures list with detail able to click on cell and get more deatils. 
 
