@@ -20,6 +20,7 @@ class FavoriteListViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         favoriteDataList = favoriteListViewModel.getFavoriteList()
+        favListTableView.reloadData()
         configUI()
     }
     

@@ -23,11 +23,12 @@ class ShowDetailsViewController: UIViewController {
         
         //MARK: - Update UI
         configUI()
-        self.favButtonConfig()
         
         //MARK: - Get NASA Astronomy Details
         if nasaObjectModel == nil {
             fetchingAstronomyPicture()
+        } else {
+            favButtonConfig()
         }
     }
     
@@ -79,6 +80,7 @@ class ShowDetailsViewController: UIViewController {
                 if nasaDetailsModel != nil {
                     self.nasaObjectModel = nasaDetailsModel
                     DispatchQueue.main.async {
+                        self.favButtonConfig()
                         self.detailsTableView.reloadData()
                     }
                 } else {
