@@ -45,7 +45,8 @@
 - Allow users to create/manage a list of "Favourite" listings. using heart button.
 - Display date, explanation, title and the image/video of the day.
 - App is cache information and display last updated information in the case of network unavailability.
-- App is loding Pictures in cache to fastets load the imaged and for better PERFORMANCE
+- App is loding Pictures in cache to load the images fastest for better PERFORMANCE
+- App is supporting multiple devices sizes on portrait model.
 
 ## General Note:
 
