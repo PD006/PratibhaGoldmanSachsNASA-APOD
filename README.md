@@ -39,18 +39,23 @@
     
 11- Build the project and run it on the real device or Xcode Simulator
 
+## Features Included:
 
+- Allow users to search for the picture for a date of their choise using Calendar.
+- Allow users to create/manage a list of "Favourite" listings. using heart button.
+- Display date, explanation, title and the image/video of the day.
+- App is 
 ## General Note:
 
 1- Run the project on the real device or Xcode Simulator.
 
 2- On Landing screen application has:
 
--`Calendar` (Using Calendar we are allowing users to search for the picture for a date of their choice). User can not select future date in calendar and by swiping can select any past date.
+- `Calendar` (Using Calendar we are allowing users to search for the picture for a date of their choice). User can not select future date in calendar and by swiping can select any past date.
 
--`Favourite` button with heart image on it. clicking this button user will have the list of favourite pictures list with detail able to click on cell and get more deatils. 
+- `Favourite` button with heart image on it. clicking this button user will have the list of favourite pictures list with detail able to click on cell and get more deatils. 
 
--`Show Picture` button by clicking this we are redirecting to the next page to get the picture details.
+- `Show Picture` button by clicking this we are redirecting to the next page to get the picture details.
 
 3- Details screen is howing Picture, title, explanation, and a button to add in favourite list.
 
