@@ -64,6 +64,7 @@ class CustomImageView: UIImageView {
             return
         }
 
+        MBProgressHUD.showAdded(to: self, animated: true)
         // image does not available in cache.. so retrieving it from url...
         URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in
             if error != nil {
@@ -76,6 +77,7 @@ class CustomImageView: UIImageView {
                         self.image = imageToCache
                     }
                     imageCache.setObject(imageToCache, forKey: url as AnyObject)
+                    MBProgressHUD.hide(for: self, animated: true)
                 }
             })
         }).resume()
