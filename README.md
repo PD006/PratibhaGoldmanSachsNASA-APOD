@@ -44,7 +44,9 @@
 - Allow users to search for the picture for a date of their choise using Calendar.
 - Allow users to create/manage a list of "Favourite" listings. using heart button.
 - Display date, explanation, title and the image/video of the day.
-- App is 
+- App is cache information and display last updated information in the case of network unavailability.
+- App is loding Pictures in cache to fastets load the imaged and for better PERFORMANCE
+
 ## General Note:
 
 1- Run the project on the real device or Xcode Simulator.
